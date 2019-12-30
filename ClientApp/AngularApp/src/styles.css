@@ -1,0 +1,32 @@
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+@font-face {
+    font-family: Roboto;
+    src: url('../src/assets/fonts/iransansweb.eot');
+    /* IE9 Compat Modes */
+    src: url('../src/assets/fonts/iransansweb.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../src/assets/fonts/iransansweb.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../src/assets/fonts/iransansweb.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../src/assets/fonts/iransansweb.ttf') format('truetype');
+    /* Safari, Android, iOS */
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, tahoma;
+    direction: rtl;
+    text-align: right;
+}
+
+.mat-drawer-content {
+    background-color: #fff;
+}
+
+.canvasjs-chart-container {
+    text-align: right !important;
+    direction: rtl;
+}

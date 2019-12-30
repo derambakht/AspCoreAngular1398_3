@@ -1,0 +1,13 @@
+<mat-drawer-container class="example-container" autosize>
+    <mat-drawer #drawer class="example-sidenav" mode="side" opened>
+        <sidebar-menu></sidebar-menu>
+    </mat-drawer>
+
+    <div>
+        <header></header>
+        <div class="example-sidenav-content">
+            <router-outlet></router-outlet>
+        </div>
+
+    </div>
+</mat-drawer-container>

@@ -1,0 +1,12 @@
+<h2>Posts</h2>
+<div class="alert alert-info" *ngIf="isLoading">data is loading......
+    <div class="spinner-border text-primary" role="status">
+        <span class="sr-only">Loading...</span>
+    </div>
+</div>
+<button (click)="refreshData()">Refresh Data</button>
+<div *ngFor="let item of posts">
+    <h3>{{item.title}}</h3>
+    <p>{{item.body}}</p>
+    <hr />
+</div>

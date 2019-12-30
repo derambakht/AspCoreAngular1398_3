@@ -1,0 +1,10 @@
+C:\Users\Mohsen\Desktop\ASPCore Angular 1398\Session16\FadSolution\Entities\bin\Release\netcoreapp3.0\Entities.deps.json
+C:\Users\Mohsen\Desktop\ASPCore Angular 1398\Session16\FadSolution\Entities\bin\Release\netcoreapp3.0\Entities.runtimeconfig.json
+C:\Users\Mohsen\Desktop\ASPCore Angular 1398\Session16\FadSolution\Entities\bin\Release\netcoreapp3.0\Entities.runtimeconfig.dev.json
+C:\Users\Mohsen\Desktop\ASPCore Angular 1398\Session16\FadSolution\Entities\bin\Release\netcoreapp3.0\Entities.dll
+C:\Users\Mohsen\Desktop\ASPCore Angular 1398\Session16\FadSolution\Entities\bin\Release\netcoreapp3.0\Entities.pdb
+C:\Users\Mohsen\Desktop\ASPCore Angular 1398\Session16\FadSolution\Entities\obj\Release\netcoreapp3.0\Entities.csprojAssemblyReference.cache
+C:\Users\Mohsen\Desktop\ASPCore Angular 1398\Session16\FadSolution\Entities\obj\Release\netcoreapp3.0\Entities.AssemblyInfoInputs.cache
+C:\Users\Mohsen\Desktop\ASPCore Angular 1398\Session16\FadSolution\Entities\obj\Release\netcoreapp3.0\Entities.AssemblyInfo.cs
+C:\Users\Mohsen\Desktop\ASPCore Angular 1398\Session16\FadSolution\Entities\obj\Release\netcoreapp3.0\Entities.dll
+C:\Users\Mohsen\Desktop\ASPCore Angular 1398\Session16\FadSolution\Entities\obj\Release\netcoreapp3.0\Entities.pdb

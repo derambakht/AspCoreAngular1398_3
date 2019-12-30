@@ -1,0 +1,20 @@
+.example-container {
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.example-sidenav-content {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    padding: 1rem 1.5rem;
+}
+
+.example-sidenav {
+    padding: 20px;
+}
+
+.mat-drawer-container {
+    color: #000;
+}

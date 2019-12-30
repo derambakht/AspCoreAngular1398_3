@@ -1,0 +1,45 @@
+<div class="card m-3">
+    <div class="card-header">Add New Order With ReactiveForms</div>
+    <div class="card-body">
+        <form [formGroup]="orderForm" (ngSubmit)="saveData()">
+            <div class="form-group">
+                <label>Order Number :</label>
+                <input type="text" class="form-control" formControlName="orderNumber">
+                <!-- <span *ngIf="orderForm.touched && orderForm.controls.orderNumber.hasError('required')">
+                    <p class="text-danger">شماره سند اجباری است</p>
+                </span> -->
+
+                <error-message [control]="orderForm.controls.orderNumber"></error-message>
+            </div>
+            <div class="form-group">
+                <label>Title :</label>
+                <input type="text" class="form-control" formControlName="title">
+                <error-message [control]="orderForm.controls.title"></error-message>
+                <!-- <span *ngIf="orderForm.touched && orderForm.controls.title.hasError('required')">
+                        <p class="text-danger">عنوان اجباری است</p>
+                </span>
+                <span *ngIf="orderForm.touched && orderForm.controls.title.hasError('minlength')">
+                        <p class="text-danger">حداقل 3 کاراکتر</p>
+                </span> -->
+            </div>
+            <div class="form-group">
+                <button (click)="addRow()">Add New Row</button>
+                <div class="card">
+                    <order-details-info-reactive [detailsForm]="item" *ngFor="let item of orderForm.controls.details.controls"></order-details-info-reactive>
+                </div>
+            </div>
+
+            <button [disabled]="!orderForm.valid" type="submit">Save</button>
+        </form>
+        <p>
+            {{orderForm.value | json}}
+        </p>
+        <p>
+            IsValid = {{orderForm.status | json}}
+        </p>
+
+        <p>
+            Is Touched = {{orderForm.touched | json}}
+        </p>
+    </div>
+</div>

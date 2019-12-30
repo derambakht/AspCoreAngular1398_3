@@ -1,0 +1,8 @@
+C:\Users\Mohsen\Desktop\ASPCore Angular 1398\Session16\FadSolution\Common\bin\Debug\netcoreapp3.0\Common.deps.json
+C:\Users\Mohsen\Desktop\ASPCore Angular 1398\Session16\FadSolution\Common\bin\Debug\netcoreapp3.0\Common.dll
+C:\Users\Mohsen\Desktop\ASPCore Angular 1398\Session16\FadSolution\Common\bin\Debug\netcoreapp3.0\Common.pdb
+C:\Users\Mohsen\Desktop\ASPCore Angular 1398\Session16\FadSolution\Common\obj\Debug\netcoreapp3.0\Common.AssemblyInfoInputs.cache
+C:\Users\Mohsen\Desktop\ASPCore Angular 1398\Session16\FadSolution\Common\obj\Debug\netcoreapp3.0\Common.AssemblyInfo.cs
+C:\Users\Mohsen\Desktop\ASPCore Angular 1398\Session16\FadSolution\Common\obj\Debug\netcoreapp3.0\Common.dll
+C:\Users\Mohsen\Desktop\ASPCore Angular 1398\Session16\FadSolution\Common\obj\Debug\netcoreapp3.0\Common.pdb
+C:\Users\Mohsen\Desktop\ASPCore Angular 1398\Session16\FadSolution\Common\obj\Debug\netcoreapp3.0\Common.csprojAssemblyReference.cache

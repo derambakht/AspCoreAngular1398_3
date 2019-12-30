@@ -1,0 +1,7 @@
+<h2>Customer List</h2>
+<hr />
+<div class="container">
+    <div class="row">
+        <app-customer-detail class="col-md-4" *ngFor="let item of users | customerGrade:2" [info]="item" (remove)="removeChild($event)"></app-customer-detail>
+    </div>
+</div>

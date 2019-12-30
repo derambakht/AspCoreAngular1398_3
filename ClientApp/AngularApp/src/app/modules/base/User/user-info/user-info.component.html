@@ -1,0 +1,50 @@
+<div class="container">
+    <h5>افزودن کاربر جدید</h5>
+    <hr />
+    <div class="row">
+        <div class="form-group col-md-5">
+            <label>نام کاربری</label>
+            <input type="text" [(ngModel)]="user.userName" rainBow class="form-control" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="form-group col-md-5">
+            <label>رمز عبور</label>
+            <input type="password" [(ngModel)]="user.password" class="form-control" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <label>تصویر پرسنلی</label>
+            <div class="image-preview mb-3">
+                <img [src]="previewUrl" width="200" (click)="fileInput.click()" />
+            </div>
+
+            <div class="form-group" style="display: none;">
+                <input type="file" #fileInput name="image" (change)="fileProgress($event)" />
+            </div>
+            <div *ngIf="fileUploadProgress">
+                درصد دانلود فایل : {{ fileUploadProgress }}
+            </div>
+
+            <div class="mb-3" *ngIf="uploadedFilePath">
+                {{uploadedFilePath}}
+            </div>
+            <div class="form-group">
+                <h5>Dropzone</h5>
+                <ngx-dropzone [maxFileSize]="200000" (change)="onSelect($event)">
+                    <ngx-dropzone-label>Drop it, baby!</ngx-dropzone-label>
+                    <ngx-dropzone-preview ngProjectAs="ngx-dropzone-preview" *ngFor="let f of files;let i = index" [removable]="true" (removed)="onRemove(f)">
+                        <ngx-dropzone-label>
+                            <img [src]="filePreviews[i]" width="120" />
+                        </ngx-dropzone-label>
+                    </ngx-dropzone-preview>
+                </ngx-dropzone>
+            </div>
+            <div class="form-group">
+                <button class="btn btn-primary" (click)="onSubmit()" [disabled]="isUploading">ذخیره</button>
+                <a [routerLink]="['/users']" class="btn btn-outline-secondary mr-2">بازگشت به لیست</a>
+            </div>
+        </div>
+    </div>
+</div>

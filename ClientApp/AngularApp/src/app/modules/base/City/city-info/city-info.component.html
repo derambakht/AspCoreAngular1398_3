@@ -1,0 +1,37 @@
+<div class="card">
+    <div class="card-header">
+        <ng-container *ngIf="!editMode; else elseTemplate">
+            افزودن شهر جدید
+        </ng-container>
+        <ng-template #elseTemplate>
+            ویرایش اطلاعات شهر {{city.cityName}}
+        </ng-template>
+
+    </div>
+    <div class="card-body">
+        <div class="form-group col-md-5">
+            <label>استان</label>
+            <select [(ngModel)]="city.provinceId" class="form-control">
+              <option *ngFor="let item of provinces" [value]="item.id">{{item.title}}</option>
+            </select>
+        </div>
+        <div class="form-group col-md-5">
+            <label>نام شهر</label>
+            <input type="text" [(ngModel)]="city.cityName" rainBow class="form-control" />
+        </div>
+        <div class="form-group col-md-5">
+            <label>ترتیب نمایش</label>
+            <input type="text" [(ngModel)]="city.sortOrder" class="form-control" />
+        </div>
+        <div class="form-group col-md-5">
+            <label>توضیحات</label>
+            <textarea [(ngModel)]="city.body" class="form-control"></textarea>
+        </div>
+        <div class="form-group col-md-5">
+            <button type="button" (click)="saveData()" class="btn btn-success">ذخیره</button>
+            <a [routerLink]="['/base/cities']" class="btn btn-outline-secondary mr-2">بازگشت به لیست</a>
+        </div>
+        <hr />
+        <p>{{city | json}}</p>
+    </div>
+</div>

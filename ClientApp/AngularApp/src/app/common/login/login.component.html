@@ -1,0 +1,38 @@
+<!-- 
+<button (click)="setCurrentDate()">show date</button>
+<div #myDate>----</div> -->
+
+<div class="main">
+    <div class="login-wrap">
+        <div class="login-html">
+            <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">ورود به سامانه</label>
+            <input id="tab-2" type="radio" name="tab" class="for-pwd"><label for="tab-2" class="tab">فراموشی رمز عبور</label>
+            <div class="login-form">
+                <div class="sign-in-htm">
+                    <div class="group">
+                        <label for="user" class="label">نام کاربری</label>
+                        <input id="user" [(ngModel)]="model.userName" type="text" class="input">
+                    </div>
+                    <div class="group">
+                        <label for="pass" class="label">رمز عبور</label>
+                        <input id="pass" type="password" [(ngModel)]="model.password" type="password" class="input" data-type="password">
+                    </div>
+                    <div class="group">
+                        <input (click)="login()" type="button" class="button" value="ورود">
+                    </div>
+                    <div class="hr"></div>
+                </div>
+                <div class="for-pwd-htm">
+                    <div class="group">
+                        <label for="user" class="label">نام کاربری</label>
+                        <input id="user" type="text" class="input">
+                    </div>
+                    <div class="group">
+                        <input class="button" value="دریافت رمز جدید">
+                    </div>
+                    <div class="hr"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,7 @@
+a {
+    color: #fff;
+}
+
+.mat-tree-node[aria-level="1"] {
+    padding-right: 1.7rem;
+}

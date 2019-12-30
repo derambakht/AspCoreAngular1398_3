@@ -1,0 +1,8 @@
+<ngx-ui-loader></ngx-ui-loader>
+<simple-notifications></simple-notifications>
+<ng-container *ngIf="isAuthenticate; else elseTemplate">
+    <main-layout></main-layout>
+</ng-container>
+<ng-template #elseTemplate>
+    <app-login></app-login>
+</ng-template>

@@ -1,0 +1,7 @@
+install package :
+install-package Microsoft.EntityFrameworkCore.SqlServer
+
+install package :
+Microsoft.EntityFrameworkCore.Tools
+
+Scaffold-DbContext -UseDatabaseNames "Data Source=.;Initial Catalog=FadSolutionDB;Persist Security Info=True;User ID=sa;Password=123" -force  Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -Context "FadContext" -DataAnnotations

@@ -1,0 +1,21 @@
+<div class="card m-3">
+    <div class="card-header">Add New Order</div>
+    <div class="card-body">
+        <div class="form-group">
+            <label>Order Number :</label>
+            <input type="text" class="form-control" [(ngModel)]="order.orderNumber">
+        </div>
+        <div class="form-group">
+            <label>Title :</label>
+            <input type="text" class="form-control" [(ngModel)]="order.title">
+        </div>
+        <div class="form-group">
+            <button (click)="addRow()">Add New Row</button>
+            <div class="card">
+                <order-details-info #detail (removeRow)="removeRowInParent($event)" [info]="item" *ngFor="let item of order.orderDetailsList"></order-details-info>
+            </div>
+        </div>
+
+        <button (click)="save()">Save</button>
+    </div>
+</div>

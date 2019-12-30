@@ -1,0 +1,16 @@
+C:\Users\Mohsen\Desktop\ASPCore Angular 1398\Session14\FadSolution\ClientApp\bin\Debug\netcoreapp3.0\ClientApp.deps.json
+C:\Users\Mohsen\Desktop\ASPCore Angular 1398\Session14\FadSolution\ClientApp\bin\Debug\netcoreapp3.0\ClientApp.dll
+C:\Users\Mohsen\Desktop\ASPCore Angular 1398\Session14\FadSolution\ClientApp\bin\Debug\netcoreapp3.0\ClientApp.pdb
+C:\Users\Mohsen\Desktop\ASPCore Angular 1398\Session14\FadSolution\ClientApp\obj\Debug\netcoreapp3.0\ClientApp.csprojAssemblyReference.cache
+C:\Users\Mohsen\Desktop\ASPCore Angular 1398\Session14\FadSolution\ClientApp\obj\Debug\netcoreapp3.0\ClientApp.AssemblyInfoInputs.cache
+C:\Users\Mohsen\Desktop\ASPCore Angular 1398\Session14\FadSolution\ClientApp\obj\Debug\netcoreapp3.0\ClientApp.AssemblyInfo.cs
+C:\Users\Mohsen\Desktop\ASPCore Angular 1398\Session14\FadSolution\ClientApp\obj\Debug\netcoreapp3.0\ClientApp.dll
+C:\Users\Mohsen\Desktop\ASPCore Angular 1398\Session14\FadSolution\ClientApp\obj\Debug\netcoreapp3.0\ClientApp.pdb
+C:\Users\Mohsen\Desktop\ASPCore Angular 1398\Session16\FadSolution\ClientApp\bin\Debug\netcoreapp3.0\ClientApp.deps.json
+C:\Users\Mohsen\Desktop\ASPCore Angular 1398\Session16\FadSolution\ClientApp\bin\Debug\netcoreapp3.0\ClientApp.dll
+C:\Users\Mohsen\Desktop\ASPCore Angular 1398\Session16\FadSolution\ClientApp\bin\Debug\netcoreapp3.0\ClientApp.pdb
+C:\Users\Mohsen\Desktop\ASPCore Angular 1398\Session16\FadSolution\ClientApp\obj\Debug\netcoreapp3.0\ClientApp.csprojAssemblyReference.cache
+C:\Users\Mohsen\Desktop\ASPCore Angular 1398\Session16\FadSolution\ClientApp\obj\Debug\netcoreapp3.0\ClientApp.AssemblyInfoInputs.cache
+C:\Users\Mohsen\Desktop\ASPCore Angular 1398\Session16\FadSolution\ClientApp\obj\Debug\netcoreapp3.0\ClientApp.AssemblyInfo.cs
+C:\Users\Mohsen\Desktop\ASPCore Angular 1398\Session16\FadSolution\ClientApp\obj\Debug\netcoreapp3.0\ClientApp.dll
+C:\Users\Mohsen\Desktop\ASPCore Angular 1398\Session16\FadSolution\ClientApp\obj\Debug\netcoreapp3.0\ClientApp.pdb

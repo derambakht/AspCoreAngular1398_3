@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FadAPI</name>
+    </assembly>
+    <members>
+        <member name="M:FadAPI.Controllers.AccountController.Login(ViewModels.AccessRight.LoginViewModel)">
+            <summary>
+            سرویس لاگین با نام کاربری و رمز عبور و دریافت توکن
+            </summary>
+            <param name="userName"></param>
+            <param name="password"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FadAPI.Controllers.Base.CityController.Search(Common.GridQueryModel)">
+            <summary>
+            جستحو در جدول مورد نظر و برگرداندن اطلاعات
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
